@@ -1,5 +1,9 @@
 body{
-    background-color: aqua;
+    background-image: url(/assets/img/Green\ White\ Progress\ Quote\ Mouse\ Pad.png);
+    background-position: 0 -220px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 
 }
 
@@ -36,4 +40,3 @@ body{
 .progetti{
     margin-right: 40px;
 }
-

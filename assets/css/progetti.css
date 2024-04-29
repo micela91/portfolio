@@ -1,11 +1,4 @@
-body{
-    background-image: url(/assets/img/Green\ White\ Progress\ Quote\ Mouse\ Pad.png);
-    background-position: 0 -220px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
 
-}
 
 .navbar{
     display: flex;
@@ -39,4 +32,18 @@ body{
 
 .progetti{
     margin-right: 40px;
+}
+
+main{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.workinprogress{
+    width: 600px;
+    text-align: center;
+    
+    
+    
+    
 }

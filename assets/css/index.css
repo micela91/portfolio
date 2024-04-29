@@ -1,5 +1,5 @@
 body{
-    background-image: url(../../assets/img/background.jpg);
+    background-color: aqua;
 
 }
 
@@ -27,6 +27,10 @@ body{
 .chisono{
     margin-right: 40px;
 
+}
+
+.CV{
+    margin-right: 40px;
 }
 
 .progetti{

@@ -23,3 +23,12 @@ body{
 .home, .chisono, .CV, .progetti{
     margin-right: 40px;
 }
+
+main{
+    max-width: 600px;
+    align-items: center;
+    margin: auto;
+    text-align: justify;
+    margin-top: 50px;
+    
+}

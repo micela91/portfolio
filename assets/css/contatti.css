@@ -2,12 +2,21 @@ body{
     background-color: azure;
 }
 
+main {
+    max-width: 700px;
+    margin: auto;
+}
+
 .navbar{
     display: flex;
     justify-content: right;
     font-family: Arial, Helvetica, sans-serif;
     font-size:15px;
     font-weight: bold;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 
 }
 
@@ -23,3 +32,55 @@ body{
 .home, .chisono, .CV, .progetti{
     margin-right: 40px;
 }
+
+.testo-form{
+    margin-top: 50px;
+    text-align: center;
+    font-size: large;
+    
+    
+}
+
+.contenitore-contatti{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.nome-cognome, .contenitore-email, .area-testo {
+    width: 400px;
+    margin: auto;
+}
+
+.nome, .cognome{
+    width: 150px;
+    padding: 8px 12px;
+    border: solid 1px grey;
+    border-radius: 5px;
+    }
+
+.email{
+    width: 330px;
+    margin-top: 20px;
+    padding: 8px 12px;
+    border: solid 1px grey;
+    border-radius: 5px;
+}
+
+.testo{
+    width: 350px;
+    margin-top: 20px;
+    height: 150px;
+    border: solid 1px grey;
+    border-radius: 5px;
+}
+
+.contattami{
+    margin-top: 20px;
+    padding: 8px 12px;
+    border: solid 1px grey;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+}
+
+

@@ -3,6 +3,10 @@ body{
 
 }
 
+a, a:visited, a:hover, a:active{
+    text-decoration: none;
+}
+
 .navbar{
     display: flex;
     justify-content: right;

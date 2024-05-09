@@ -2,6 +2,10 @@ body{
     background-color: azure;
 }
 
+a, a:visited, a:hover, a:active{
+    text-decoration: none;
+}
+
 main {
     max-width: 700px;
     margin: auto;
@@ -81,6 +85,16 @@ main {
     border-radius: 5px;
     background-color: orange;
     color: white;
+    cursor: pointer;
+}
+
+.contattami:hover{
+    background-color: rgb(243, 144, 6);
+}
+
+.contattami:active{
+    background-color: white;
+    color: orange;
 }
 
 

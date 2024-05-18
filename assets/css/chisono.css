@@ -46,14 +46,41 @@ main{
     width: 200px;
     margin-right: 20px;
     border-radius: 10px;
+    margin-top: 20px;
     margin-left: 0;
+    float: left;
 }
 
-.aboutme{
+p{
     text-align: justify;
     margin-left: 20px;
-    
 }
 
 
 
+@media screen and (max-width: 600px) {
+    main{
+        display: flex;
+        align-items: flex-start;
+        max-width: 700px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .immagine{
+        margin-top: 20px;
+        width: 50%;
+    }
+
+    .informazioni{
+        position: relative;
+        margin-left: 70px;
+    }
+
+    .navbar {
+        position: relative;
+        left:-21%;
+        justify-content:unset;
+    }
+
+}

@@ -33,4 +33,17 @@ a, a:visited, a:hover, a:active{
     margin-right: 40px;
 }
 
+@media screen  and (max-width:600px) {
+    .informazioni{
+        position: relative;
+        margin-left: 70px;
+    }
+
+    .navbar {
+        position: relative;
+        left:-21%;
+        justify-content:unset;
+    }
+}
+
 

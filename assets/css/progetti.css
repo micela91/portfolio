@@ -37,8 +37,26 @@ main{
 .workinprogress{
     width: 600px;
     text-align: center;
-    
-    
-    
-    
+}
+
+@media screen and (max-width: 600px){
+    .workinprogress{
+        width: 350px;
+        }
+
+    main{
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .informazioni{
+        position: relative;
+        margin-left: 70px;
+    }
+
+    .navbar {
+        position: relative;
+        left:-21%;
+        justify-content:unset;
+    }
 }

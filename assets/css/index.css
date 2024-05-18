@@ -40,9 +40,11 @@ a, a:visited, a:hover, a:active{
     }
 
     .navbar {
-        position: relative;
-        left:-21%;
-        justify-content:unset;
+        max-width: 80%;
+    }
+
+    .home, .chisono, .CV, .progetti, .contatti {
+        margin-right:10px;
     }
 }
 

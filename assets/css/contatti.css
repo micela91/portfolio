@@ -1,9 +1,10 @@
 body{
-    background-color: azure;
+    background-color: #fed9b7;
 }
 
 a, a:visited, a:hover, a:active{
     text-decoration: none;
+    color: #4274df;
 }
 
 main {
@@ -26,7 +27,6 @@ main {
 
 
 .informazioni{
-    color: blueviolet;
     display: flex;
     justify-content: right;
     margin-right: 20px;
@@ -83,18 +83,14 @@ main {
     padding: 8px 12px;
     border: solid 1px grey;
     border-radius: 5px;
-    background-color: orange;
-    color: white;
+    background-color: #FF8765;
+    color: black;
     cursor: pointer;
 }
 
-.contattami:hover{
-    background-color: rgb(243, 144, 6);
-}
-
 .contattami:active{
-    background-color: white;
-    color: orange;
+    background-color: #4274DF;
+    color: black;
 }
 
 

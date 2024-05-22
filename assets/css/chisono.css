@@ -1,9 +1,10 @@
 body{
-    background-color: white;
+   background-color: #fed9b7;
 }
 
 a, a:visited, a:hover, a:active{
     text-decoration: none;
+    color: #4274df;
 }
 
 main{
@@ -24,12 +25,13 @@ main{
     top: 0;
     right: 0;
     left: 0;
+    margin-top: 10px;
+    margin-right: 25px;
 
 }
 
 
 .informazioni{
-    color: blueviolet;
     display: flex;
     justify-content: right;    
 }
@@ -38,20 +40,25 @@ main{
     margin-right: 40px;
 }
 
+.contenitore-immagine{
+    margin-top: 50px;
+}
 
 
 .immagine{
     width: 200px;
     margin-right: 20px;
+    margin-bottom: 20px;
     border-radius: 10px;
-    margin-top: 20px;
     margin-left: 0;
     float: left;
 }
 
 p{
+    margin-top: 50px;
     text-align: justify;
-    margin-left: 20px;
+    margin: 0;
+
 }
 
 

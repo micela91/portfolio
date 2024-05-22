@@ -9,7 +9,7 @@ body{
 
 a, a:visited, a:hover, a:active{
     text-decoration: none;
-    color: #f07167;
+    color: #4274df;
 }
 
 .navbar{
@@ -22,12 +22,12 @@ a, a:visited, a:hover, a:active{
     top: 0;
     right: 0;
     left: 0;
-    background-color: #fdfcdc;
+    margin-top: 10px;
+    margin-right: 25px;
 }
 
 
 .informazioni{
-    color: black;
     display: flex;
     justify-content: right;
     margin-right: 20px;
@@ -36,7 +36,6 @@ a, a:visited, a:hover, a:active{
 
 .home, .chisono, .CV, .progetti{
     margin-right: 40px;
-    color: black;
 }
 
 .presentazione{

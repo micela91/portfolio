@@ -61,6 +61,15 @@ h2 {
     font-weight: normal;
 }
 
+.icone-social{
+margin-top: 150px;
+}
+
+.social{
+    width: 30px;
+    margin-right: 20px;
+}
+
 @media screen  and (max-width:600px) {
     .informazioni{
         position: relative;

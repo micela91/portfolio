@@ -4,7 +4,7 @@ body {
 
 main{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 a, a:visited, a:active{
@@ -45,8 +45,9 @@ a:hover{
 .workinprogress{
     width: 600px;
     text-align: center;
-    margin-top: 18px;
+
 }
+
 
 @media screen and (max-width: 600px){
     .workinprogress{

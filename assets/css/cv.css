@@ -58,6 +58,11 @@ p{
     font-family: "Roboto";
 }
 
+.social{
+    width: 30px;
+    margin-right: 20px;
+}
+
 @media screen  and (max-width:600px) {
     .informazioni{
         position: relative;

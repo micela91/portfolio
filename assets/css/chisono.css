@@ -5,6 +5,7 @@ body{
 main{
     display: flex;
     align-items: center;
+    text-align: justify;
     max-width: 700px;
     margin: auto;
 }
@@ -46,7 +47,7 @@ a:hover{
 }
 
 .contenitore-immagine{
-    margin-top: 40px;
+    margin-top: 70px;
 }
 
 .icone-social {

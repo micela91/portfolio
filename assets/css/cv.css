@@ -7,7 +7,6 @@ main{
     align-items: center;
     margin: auto;
     text-align: justify;
-    margin-top: 50px;
     
 }
 
@@ -45,6 +44,10 @@ a:hover{
 
 .home, .chisono, .CV, .progetti{
     margin-right: 40px;
+}
+
+.contenitore-cv{
+    margin-top: 70px;
 }
 
 h1, h2{

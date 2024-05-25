@@ -59,6 +59,12 @@ p{
     margin: 11px;
 }
 
+.icone-social {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
 .social{
     width: 30px;
     margin-right: 15px;

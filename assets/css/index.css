@@ -63,7 +63,9 @@ h2 {
 }
 
 .icone-social{
-margin-top: 150px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 
 .social{
@@ -85,6 +87,8 @@ margin-top: 150px;
     .home, .chisono, .CV, .progetti, .contatti {
         margin-right:10px;
     }
+
+    
 }
 
 

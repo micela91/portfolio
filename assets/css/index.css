@@ -102,6 +102,10 @@ h2 {
        margin-left: 50px;
     }
 
+    h2{
+        margin-left: 10px;
+    }
+
     body{
         background-size: cover;
     }

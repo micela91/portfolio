@@ -80,16 +80,20 @@ h2 {
 @media screen  and (max-width:600px) {
     .informazioni{
         position: relative;
-        margin-left: 70px;
     }
 
     .navbar {
         max-width: 80%;
-        margin-right: 10px;
+        margin-left: 50px;
     }
 
     .home, .chisono, .CV, .progetti, .contatti {
         margin-right:10px;
+    }
+
+
+    body{
+        background-size: 100%;
     }
 
 

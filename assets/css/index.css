@@ -49,8 +49,8 @@ a:hover{
 }
 
 .presentazione{
-    margin-top: 250px;
-    margin-left: 40px;
+   margin-top: 250px;
+    margin-left: 10px;
 }
 
 h1 {
@@ -89,14 +89,23 @@ h2 {
 
     .home, .chisono, .CV, .progetti, .contatti {
         margin-right:10px;
+
     }
 
+    .presentazione{
+        position: fixed;
+        bottom: 28px;
+        left: 0;
+    }
+
+    h1{
+       margin-left: 50px;
+    }
 
     body{
-        background-size: 100%;
+        background-size: cover;
     }
-
-
 }
+    
 
 

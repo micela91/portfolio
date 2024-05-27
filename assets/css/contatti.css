@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #F3E5F5;
 }
 
@@ -7,17 +7,17 @@ main {
     margin: auto;
 }
 
-a, a:visited, a:active{
+a, a:visited, a:active {
     text-decoration: none;
     color: #283593;
 }
 
-a:hover{
+a:hover {
     color: #F5C000;
 }
 
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: right;
     font-family: "Roboto";
@@ -32,25 +32,24 @@ a:hover{
 }
 
 
-.informazioni{
+.informazioni {
     display: flex;
     justify-content: right;
     margin-right: 20px;
-    
 }
 
-.home, .chisono, .CV, .progetti{
+.home, .chisono, .CV, .progetti {
     margin-right: 40px;
 }
 
-.testo-form{
+.testo-form {
     margin-top: 70px;
     text-align: center;
     font-family: "Roboto";
     color: #212121;  
 }
 
-.contenitore-contatti{
+.contenitore-contatti {
     text-align: center;
     margin-top: 50px;
 }
@@ -60,14 +59,14 @@ a:hover{
     margin: auto;
 }
 
-.nome, .cognome{
+.nome, .cognome {
     width: 150px;
     padding: 8px 12px;
     border: solid 1px grey;
     border-radius: 5px;
-    }
+}
 
-.email{
+.email {
     width: 330px;
     margin-top: 20px;
     padding: 8px 12px;
@@ -75,7 +74,7 @@ a:hover{
     border-radius: 5px;
 }
 
-.testo{
+.testo {
     width: 350px;
     margin-top: 20px;
     height: 150px;
@@ -83,7 +82,7 @@ a:hover{
     border-radius: 5px;
 }
 
-.contattami{
+.contattami {
     margin-top: 20px;
     padding: 10px 14px;
     border: none;
@@ -93,7 +92,7 @@ a:hover{
     cursor: pointer;
 }
 
-.contattami:active{
+.contattami:active {
     background-color: #CCA000;
     color: black;
 }
@@ -104,14 +103,14 @@ a:hover{
     left: 0;
 }
 
-.social{
+.social {
     width: 30px;
     margin-right: 15px;
 }
 
 
 @media screen  and (max-width:600px) {
-    .informazioni{
+    .informazioni {
         position: relative;
     }
 
@@ -124,8 +123,7 @@ a:hover{
         margin-right:10px;
     }
 
-    .contenitore-contatti{
+    .contenitore-contatti {
        margin-left: -17px;
     }
-    
 }

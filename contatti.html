@@ -1,56 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/contatti.css">
-    <title>Contatti</title>
-    <meta property="og:title" content="Contatti" />
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/css/contatti.css">
+        <title>Contatti</title>
+        <meta property="og:title" content="Contatti" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.MichelaBallone.it/contatti.html" />
         <meta property="og:image" content="https://www.MichelaBallone.it/assets/img/favicon.ico" />
-</head>
-<body>
-    <div class="navbar">
-        <div class="informazioni">
-            <div class="home"><a href="index.html">Home</a></div>
-            <div class="chisono"><a href="chisono.html">Chi sono</a></div>
-            <div class="CV"><a href="cv.html">CV</a></div>
-            <div class="progetti"><a href="progetti.html">Progetti</a></div>
-            <div class="contatti"><a href="contatti.html">Contatti</a></div>
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="informazioni">
+                <div class="home"><a href="index.html">Home</a></div>
+                <div class="chisono"><a href="chisono.html">Chi sono</a></div>
+                <div class="CV"><a href="cv.html">CV</a></div>
+                <div class="progetti"><a href="progetti.html">Progetti</a></div>
+                <div class="contatti"><a href="contatti.html">Contatti</a></div>
+            </div>
         </div>
-    </div>
 
-   <main>
-        <div class="testo-form">
-            Non esitare a contattarmi direttamente qui! Sarò felice di rispondere a tutte le tue richieste e fornirti ulteriori informazioni. Il tuo messaggio è importante per me, e farò del mio meglio per assisterti nel miglior modo possibile. Grazie per il tuo interesse e la tua fiducia!
+        <main>
+                <div class="testo-form">
+                    Non esitare a contattarmi direttamente qui! Sarò felice di rispondere a tutte le tue richieste e fornirti ulteriori informazioni. Il tuo messaggio è importante per me, e farò del mio meglio per assisterti nel miglior modo possibile. Grazie per il tuo interesse e la tua fiducia!
+                </div>
+                <form id="myForm" class="contenitore-contatti">
+                    <div class="nome-cognome">
+                        <input class="nome" name="nome" type="text" placeholder="Nome" required>
+                        <input class="cognome" name="cognome" type="text" placeholder="Cognome" required>
+                    </div>
+                    <div class="contenitore-email">
+                        <input class="email" name="email" type="email" placeholder="E-mail" required>
+                    </div>
+                    <div class="area-testo">
+                        <textarea class="testo" name="messaggio" required></textarea>
+                    </div>
+                    <button class="contattami" type="submit">Contattami</button>
+
+                </form>
+        </main>
+
+    
+        <div class="icone-social">
+            <a href="https://www.instagram.com/ballonemichela/"><img class="social" src="/assets/img/iconainstagram.png" alt="Instagram"></a>
+            <a href="https://www.linkedin.com/in/michela-ballone-118220221/"><img class="social" src="/assets/img/iconalinkedin.png" alt="Linkedin"></a>
+            <a href="https://github.com/micela91"><img class="social" src="/assets/img/iconagithub.png" alt="Github"></a>
         </div>
-        <form id="myForm" class="contenitore-contatti">
-            <div class="nome-cognome">
-                <input class="nome" name="nome" type="text" placeholder="Nome" required>
-                <input class="cognome" name="cognome" type="text" placeholder="Cognome" required>
-            </div>
-            <div class="contenitore-email">
-                <input class="email" name="email" type="email" placeholder="E-mail" required>
-            </div>
-            <div class="area-testo">
-                <textarea class="testo" name="messaggio" required></textarea>
-            </div>
-            <button class="contattami" type="submit">Contattami</button>
 
-        </form>
-   </main>
-
-   
-   <div class="icone-social">
-        <a href="https://www.instagram.com/ballonemichela/"><img class="social" src="/assets/img/iconainstagram.png" alt="Instagram"></a>
-        <a href="https://www.linkedin.com/in/michela-ballone-118220221/"><img class="social" src="/assets/img/iconalinkedin.png" alt="Linkedin"></a>
-        <a href="https://github.com/micela91"><img class="social" src="/assets/img/iconagithub.png" alt="Github"></a>
-    </div>
-
-    <script src="assets/js/contatti.js"></script>
-</body>
+        <script src="assets/js/contatti.js"></script>
+    </body>
+</html>    

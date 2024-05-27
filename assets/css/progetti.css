@@ -2,21 +2,21 @@ body {
     background-color: #F3E5F5;
 }
 
-main{
+main {
     text-align: center;
     margin-top: 40px;
 }
 
-a, a:visited, a:active{
+a, a:visited, a:active {
     text-decoration: none;
     color: #283593;
 }
 
-a:hover{
+a:hover {
     color: #F5C000;
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: right;
     font-family: "Roboto";
@@ -30,19 +30,17 @@ a:hover{
     margin-right: 25px;
 }
 
-
-.informazioni{
+.informazioni {
     display: flex;
     justify-content: right;
     margin-right: 20px;
-    
 }
 
-.home, .chisono, .CV, .progetti{
+.home, .chisono, .CV, .progetti {
     margin-right: 40px;
 }
 
-.workinprogress{
+.workinprogress {
     width:565px;
     text-align: center;
     margin-top: 30px;
@@ -54,21 +52,20 @@ a:hover{
     left: 0;
 }
 
-.social{
+.social {
     width: 30px;
     margin-right: 15px;
 }
 
 
-
-@media screen and (max-width: 600px){
-    .workinprogress{
+@media screen and (max-width: 600px) {
+    .workinprogress {
         width: 350px;
         margin-top: 150px;
         margin-left: -5px;
-        }
+    }
 
-    .informazioni{
+    .informazioni {
         position: relative;
     }
 

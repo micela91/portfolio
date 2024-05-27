@@ -1,8 +1,8 @@
-body{
+body {
    background-color: #F3E5F5;
 }
 
-main{
+main {
     display: flex;
     align-items: center;
     text-align: justify;
@@ -10,17 +10,17 @@ main{
     margin: auto;
 }
 
-a, a:visited, a:active{
+a, a:visited, a:active {
     text-decoration: none;
     color: #283593;
 }
 
-a:hover{
+a:hover {
     color: #F5C000;
 }
 
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: right;
     font-family: "Roboto";
@@ -35,18 +35,17 @@ a:hover{
 }
 
 
-.informazioni{
+.informazioni {
     display: flex;
     justify-content: right;
     margin-right: 20px;
-    
 }
 
-.home, .chisono, .CV, .progetti{
+.home, .chisono, .CV, .progetti {
     margin-right: 40px;
 }
 
-.contenitore-immagine{
+.contenitore-immagine {
     margin-top: 50px;
 }
 
@@ -56,13 +55,13 @@ a:hover{
     left: 0;
 }
 
-.social{
+.social {
     width: 30px;
     margin-right: 15px;
 }
 
 
-.immagine{
+.immagine {
     width: 200px;
     margin-top: 20px;
     margin-right: 20px;
@@ -72,19 +71,17 @@ a:hover{
     float: left;
 }
 
-p{
+p {
     color: #212121;
     font-family: "Roboto";
     text-align: justify;
     margin-top: 35px;
     margin: 8px;
-
 }
 
 
-
 @media screen and (max-width: 600px) {
-    main{
+    main {
         display: flex;
         align-items: flex-start;
         max-width: 700px;
@@ -92,17 +89,17 @@ p{
         margin-top: 10px;
     }
 
-    .contenitore-immagine{
+    .contenitore-immagine {
         max-width: 90%;
         margin-left: 25px;
     }
 
-    .immagine{
+    .immagine {
         margin-top: 20px;
         width: 40%;
     }
 
-    .informazioni{
+    .informazioni {
         position: relativ;
     }
 

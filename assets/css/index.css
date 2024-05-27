@@ -79,9 +79,9 @@ h2 {
 
 @media screen  and (max-width:600px) {
     body{
-        background-size: 200px;
+        background-size: 400px;
         background-position: center;
-        margin-top: 300px;
+        margin-top: 500px;
     }
 
     h1{

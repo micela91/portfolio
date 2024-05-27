@@ -27,7 +27,7 @@
     </head>
     <body>
         
-        <div class="navbar">
+        <!--<div class="navbar">
             <div class="informazioni">
                 <div class="home"><a href="index.html">Home</a></div>
                 <div class="chisono"><a href="chisono.html">Chi sono</a></div>
@@ -35,7 +35,24 @@
                 <div class="progetti"><a href="progetti.html">Progetti</a></div>
                 <div class="contatti"><a href="contatti.html">Contatti</a></div>
             </div>
+        </div>--> 
+
+        
+        <div class="navbar">
+            <div class="informazioni">
+                <div><a href="index.html">Home</a></div>
+                <div id="myLinks">
+                  <a href="#news">News</a>
+                  <a href="#contact">Contact</a>
+                  <a href="#about">About</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+              
         </div>
+        
 
        <main class="presentazione">
             <h1>MICHELA BALLONE</h1>
@@ -49,6 +66,6 @@
             <a href="https://github.com/micela91"><img class="social" src="/assets/img/iconagithub.png" alt="Github"></a>
         </div>
 
-    
+        <script src="assets/js/index.js"></script>
     </body>
 </html>

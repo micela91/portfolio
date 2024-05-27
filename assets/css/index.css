@@ -79,8 +79,7 @@ h2 {
 
 @media screen  and (max-width:600px) {
     body{
-        background-size: cover;
-        background-position: bottom;
+        background-size: 200px;
     }
 
     h1{
